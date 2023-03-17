@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+/* body {
+  background-color: rgb(16, 25, 56);
+} */
+
+#question {
+  width: 400%;
+  margin-left: 205%;
+  margin-top: 5%;
+}
+
+#light {
+  display: none;
+  cursor: pointer;
+  margin-left: 98%;
+  margin-top: 0.6%;
+}
+
+
+#dark {
+  cursor: pointer;
+  margin-left: 98%;
+  margin-top: 0.6%;
+}
+
+#answer {
+  width: 400%;
+  margin-left: 105%;
+  margin-top: 70%;
+  background-color: rgb(212, 212, 212);
+}
+
+
+.answer {
+  display: block;
+  /* animation: riseHeight 1s .1s normal forwards; */
+}
+
+.btn-primary {
+  margin-top: 5%;
+  margin-left: 205%;
+  width: 400%;
+  background-color: black;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.head {
+  position: relative;
+  margin-top: 15%;
+  font-family: "Verdana";
+}
+
+.tagline {
+  position: relative;
+  font-family: "Verdana";
+  margin-top: 1%;
+}
+
+.feather {
+  position: absolute;
+  margin-top: 0%;
+  width: 15%;
+  margin-left: 43%;
+  animation: tilt 5s infinite;
+}
+
+a {
+  font-family: "Verdana";
+  color: rgb(11, 37, 57);
+}
+
+#clipboard-d,
+#clipboard-l {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 62.5%;
+  margin-top: 9%;
+}
+
+@keyframes tilt {
+  40% {
+    transform: rotate(20deg);
+  }
+
+  40% {
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes riseHeight {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
